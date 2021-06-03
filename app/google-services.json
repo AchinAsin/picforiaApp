@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "902142558259",
+    "firebase_url": "https://picforiaapp.firebaseio.com",
+    "project_id": "picforiaapp",
+    "storage_bucket": "picforiaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902142558259:android:fc0defc8e3f1115689a346",
+        "android_client_info": {
+          "package_name": "com.example.picforiaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902142558259-g6unovsqhugro0kqvcg59pnbfp6sp2dn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.picforiaapp",
+            "certificate_hash": "f1f115edd2316a1221da6f62b21400dfcf39e35e"
+          }
+        },
+        {
+          "client_id": "902142558259-eoajs02kgchdbpvaamo8tqpdh4ab4ph1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVWkWf66ybrbttwuKwlZ8EqnhsvLXqDjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902142558259-eoajs02kgchdbpvaamo8tqpdh4ab4ph1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

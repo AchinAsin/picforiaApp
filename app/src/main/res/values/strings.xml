@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">picforiaApp</string>
+    <string name="welcome_Text" translatable="false">picforia Welcomes You</string>
+    <string name="textView_photography">Photography</string>
+    <string name="textView_videography">Videography</string>
+    <string name="button3">photography</string>
+
+    <string name="button_portrait">Portrait</string>
+    <string name="button_landscape">Landscape</string>
+    <string name="button_night">Night</string>
+    <string name="button_street">Street</string>
+    <string name="button_sunset">Sunset</string>
+
+
+    <string name="textView_Portrait">Portrait Photography</string>
+    <string name="textView_Landscape">Landscape Photography</string>
+    <string name="textView_Night">Night Photography</string>
+    <string name="choose_file">Choose file</string>
+    <string name="upload">Upload</string>
+    <string name="show_uploads">Show Uploads</string>
+    <string name="edit_text_file_name">Enter File Name</string>
+    <string name="title_activity_picfroia_main">PicfroiaMainActivity</string>
+    <string name="upload_menu_message">You selected Upload Images.</string>
+    <string name="title_activity_portrait">PortraitActivity</string>
+
+    <string name="choose_textView">Choose Image</string>
+    <string name="upload_textView">Upload</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="delete">Delete</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="show_images">Show Images</string>
+    <string name="category">Category</string>
+    <string name="view_pictures">View Pictures</string>
+    <string name="upload_pictures">Upload Pictures</string>
+    <string name="view_videos">View Videos</string>
+    <string name="upload_videos">Upload Videos</string>
+    <string name="choose_videos">Choose Videos</string>
+    <string name="show_videos">Show Videos</string>
+
+
+</resources>

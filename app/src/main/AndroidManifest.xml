@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.picforiaapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_picforia"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_picforia_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Videos"></activity>
+        <activity android:name=".UploadVideos" />
+        <activity
+            android:name=".WildlifePhotography"
+            android:parentActivityName=".PhotographyActivity" />
+        <activity
+            android:name=".SunsetPhotography"
+            android:parentActivityName=".PhotographyActivity" />
+        <activity
+            android:name=".StreetPhotography"
+            android:parentActivityName=".PhotographyActivity" />
+        <activity android:name=".ViewAndUpload" />
+        <activity android:name=".fullImage" />
+        <activity
+            android:name=".UploadActivity"
+            android:parentActivityName=".PhotographyActivity" />
+        <activity
+            android:name=".PortraitActivity"
+            android:label="@string/title_activity_portrait"
+            android:parentActivityName=".PhotographyActivity" />
+        <activity android:name=".VideographyActivity" />
+        <activity
+            android:name=".NightActivity"
+            android:parentActivityName=".PhotographyActivity" />
+        <activity
+            android:name=".LandscapeActivity"
+            android:parentActivityName=".PhotographyActivity" />
+        <activity
+            android:name=".PhotographyActivity"
+            android:parentActivityName=".ChoiceActivity" />
+        <activity android:name=".ChoiceActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

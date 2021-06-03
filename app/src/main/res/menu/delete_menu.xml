@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fullImage">
+
+    <item
+        android:id="@+id/delete_menu"
+        android:orderInCategory="10"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_upload_icon"
+        app:showAsAction="never" />
+
+</menu>
